@@ -3,8 +3,6 @@ const crypto = require("crypto");
 const dotenv = require("dotenv");
 const axios = require("axios");
 
-
-
 const app = express();
 
 //setting up config.env file so that we can use content of it
