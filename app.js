@@ -58,7 +58,7 @@ app.post("/receiveWebhook", (req, res) => {
                             // Make API request to fetch task details
                             const accessToken = process.env.TOKEN;
                             let taskResponse;
-                            // giving a delay of 2 minutes, reason--> user also need some time to enter the task related information in Asana
+                            // giving a delay of 30 seconds, reason--> user also need some time to enter the task related information in Asana
                             setTimeout(async () => {
                                 taskResponse = await axios.get(`https://app.asana.com/api/1.0/tasks/${gid}`, {
                                     headers: {
