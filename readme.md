@@ -55,7 +55,7 @@ This project enables integration between Asana and Airtable using a webhook. It 
    npm start
    ```
 
-2. Your server should now be running at `http://localhost:3000`.
+2. Your server should now be running at `http://localhost:8080`.
 
 ## Webhook Workflow
 
@@ -71,4 +71,4 @@ This project enables integration between Asana and Airtable using a webhook. It 
 
 You can test your server by visiting the root URL in your web browser:
 
-- `http://localhost:PORT`
+- `http://localhost:8080`
