@@ -11,8 +11,6 @@ This project enables integration between Asana and Airtable using a webhook. It 
 - [Webhook Workflow](#webhook-workflow)
 - [Endpoints](#endpoints)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
