@@ -118,7 +118,7 @@ app.post("/receiveWebhook", (req, res) => {
                                         });
                                 }
 
-                            }, 60000 * 2)
+                            }, 30 * 1000) // 30 seconds
                         }
                     }
                 }
